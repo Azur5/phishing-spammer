@@ -1,7 +1,3 @@
-# phishing-spammer
-A phishing page username and password spammer
+Phishing page attacker
 
-https://youtu.be/qGe3pTPo0m8
-
-@adam.w2007 instagram
-@adam_aw10 snapchat
+Attacks phishing pages with hundreds of fake emails and passwords
