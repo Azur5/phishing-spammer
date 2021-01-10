@@ -1,4 +1,5 @@
-#Anti phishing spammer by Azure
+#Anti phishing spammer by xG3nerousPluMx
+#Works with all generic phishing pages
 
 import requests
 import os
@@ -6,7 +7,7 @@ import random
 import string
 import json
 
-print("[*] Phishing page spammer by Azure | Darktropical")
+print("[*] Phishing page spammer by xG3nerousPluMx")
 print("[*] Type \'example\' below for example exploit")
 
 chars = string.ascii_letters + string.digits + '!@#$%^&*()'
@@ -28,11 +29,10 @@ for name in names:
 
 	requests.post(url, allow_redirects=False, data={
 
-		'empty': username,
-		'empty': password
+		'username': username,	# Change 'username' and 'password' accordingly
+		'password': password
 
 		})
 
 	print ("[*] Sending username",username, "and password",password)
-
-#Follow video tutorial on how to setup ^^
+	
